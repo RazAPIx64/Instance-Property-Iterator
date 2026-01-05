@@ -174,3 +174,10 @@ local function extract_properties(unextracted_props, indent)
 
 	return table.concat(lines, "\n")
 end
+
+return {
+	PropertyMap,
+	get_properties,
+	get_class_chain,
+	extract_properties
+}
